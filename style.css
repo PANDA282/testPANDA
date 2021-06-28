@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+     font-family: 'DotGothic16', sans-serif;
+font-family: 'Press Start 2P', cursive;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background: green;
+    text-align: center;
+    padding-top: 30px;
+    position: fixed;
+}
+.menu-item{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.menu-item:hover{
+    color: chartreuse;
+    font-weight: bold;
+}
+.background{
+    background-image:url("img/wp6632107.png");
+    height:100vh;
+    background-size: cover;
+
+}
+.background-header{
+    padding-top:300px;
+    text-align: center;
+    font-size: 80px;
+    color: green;
+}
+.background-button{
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin:auto;
+    color: lawngreen;
+    background:green; 
+}
+.about{
+    width: 1000px;
+    margin: 50px auto;
+}
+.about-header{
+    text-align: center;
+}
+.about-img{
+    float:right;
+}
+.about-text{
+    
+}
+.team {
+text-align: center;
+}
+.team-header {
+text-align: center;
+}
+.team-card {
+display: inline-block;
+}
+.team-card-img {
+
+}
+.team-card-name {
+margin: 20px 0;
+}
+.team-card-position {
+margin-bottom: 20px;
+}
+.team-card-button {
+background-color: lawngreen;
+padding: 20px 30px;
+}
+.teame-card {
+
+}
+.packs{
+margin-top: 100px;
+text-align: center;
+}
+.packs-card{
+background-color: grey;
+display: inline-block;
+width: 500px;
+height: 550px;
+vertical-align: top;
+}
+.packs-card-item{
+margin: 20px 0;
+text-align: center;
+border-bottom: 1px solid black;
+padding: 15px 0px;
+list-style: none;
+}
+.item-title{
+background-color:darkorange;
+}
+.item-btn button{
+background-color: chartreuse;
+padding: 20px 60px
+}
+.packs-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.packs-card ul{
+    padding: 0px;
+}
+.item-btn{
+    border-bottom: none;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.contact{
+margin: auto;
+width: 1000px;
+}
+.contact-position{
+
+}
+.contact-btn{
+    display: block;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+.contact-icon{
+    width: 25px;
+}
+.contact-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-loc{
+
+}
+.form-link{
+    display: block;
+}
+input{
+display: block;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+@media(max-width:1000px){
+.menu-item{display: block;
+}
+}
